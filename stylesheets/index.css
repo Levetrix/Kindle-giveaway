@@ -1571,10 +1571,10 @@ textarea:focus {
 /* line 390, ../sass/index.scss */
 .button1 {
   float: left;
-  color: #464646;
+  border: 1px solid #008cba;
+  color: #008cba;
   height: 32.24px;
   width: 110px;
-  border: 1px solid #a8a8a8;
   font-family: "OpenSans";
   margin-left: calc(50% - 127px);
   line-height: 2em;
@@ -1586,35 +1586,33 @@ textarea:focus {
 
 /* line 405, ../sass/index.scss */
 .button1:hover {
-  border: 1px solid #008cba;
-  color: #008cba;
   cursor: pointer;
 }
 
-/* line 411, ../sass/index.scss */
+/* line 409, ../sass/index.scss */
 .firstTile {
   border-color: #008cba;
 }
 
-/* line 415, ../sass/index.scss */
+/* line 413, ../sass/index.scss */
 .firstList {
   border-color: #008cba;
 }
 
-/* line 419, ../sass/index.scss */
+/* line 417, ../sass/index.scss */
 img.form-success {
   max-height: 1.5rem;
   float: left;
 }
 
-/* line 423, ../sass/index.scss */
+/* line 421, ../sass/index.scss */
 div.form-success {
   text-align: left;
   line-height: 1rem;
   margin: 1rem;
 }
 
-/* line 429, ../sass/index.scss */
+/* line 427, ../sass/index.scss */
 .four h2 {
   font-family: "OpenSans";
 }
@@ -1622,24 +1620,24 @@ div.form-success {
 /*--------------------------------
 --------------------------------*/
 @media (min-width: 0px) and (max-width: 534px) {
-  /* line 436, ../sass/index.scss */
+  /* line 434, ../sass/index.scss */
   .test {
     margin-top: -5em;
   }
 
-  /* line 440, ../sass/index.scss */
+  /* line 438, ../sass/index.scss */
   .headtext {
     display: none;
   }
 }
 @media (min-width: 535px) {
-  /* line 449, ../sass/index.scss */
+  /* line 447, ../sass/index.scss */
   .one {
     min-height: 300px;
     background-position: 60% 0;
   }
 
-  /* line 454, ../sass/index.scss */
+  /* line 452, ../sass/index.scss */
   .headh1 {
     text-align: left;
     min-width: 300px;
@@ -1650,7 +1648,7 @@ div.form-success {
     padding-left: 0;
   }
 
-  /* line 463, ../sass/index.scss */
+  /* line 461, ../sass/index.scss */
   .headh2 {
     text-align: left;
     min-width: 300px;
@@ -1662,17 +1660,17 @@ div.form-success {
   }
 }
 @media (min-width: 535px) {
-  /* line 475, ../sass/index.scss */
+  /* line 473, ../sass/index.scss */
   .secondTile {
     border-color: #008cba;
   }
 
-  /* line 479, ../sass/index.scss */
+  /* line 477, ../sass/index.scss */
   .one {
     min-height: 300px;
   }
 
-  /* line 483, ../sass/index.scss */
+  /* line 481, ../sass/index.scss */
   .headh1 {
     text-align: left;
     min-width: 300px;
@@ -1683,7 +1681,7 @@ div.form-success {
     padding-left: 0;
   }
 
-  /* line 492, ../sass/index.scss */
+  /* line 490, ../sass/index.scss */
   .headh2 {
     text-align: left;
     min-width: 300px;
@@ -1694,150 +1692,150 @@ div.form-success {
     padding-left: 0;
   }
 
-  /* line 501, ../sass/index.scss */
+  /* line 499, ../sass/index.scss */
   .two {
     min-height: 0px;
   }
 
-  /* line 505, ../sass/index.scss */
+  /* line 503, ../sass/index.scss */
   .list .liToggle {
     display: none;
   }
 
-  /* line 513, ../sass/index.scss */
+  /* line 511, ../sass/index.scss */
   .listHidden {
     display: inline-block;
   }
 
-  /* line 517, ../sass/index.scss */
+  /* line 515, ../sass/index.scss */
   .listContainer {
     min-width: 480px;
   }
 
-  /* line 521, ../sass/index.scss */
+  /* line 519, ../sass/index.scss */
   .floatTitle {
     margin-left: calc(50% - 15.85em);
   }
 
-  /* line 525, ../sass/index.scss */
+  /* line 523, ../sass/index.scss */
   .button1 {
     margin-left: calc(50% - 15.85em);
     margin-top: 22px;
   }
 
-  /* line 530, ../sass/index.scss */
+  /* line 528, ../sass/index.scss */
   .tileInvis1 {
     display: inline-block;
   }
 
-  /* line 534, ../sass/index.scss */
+  /* line 532, ../sass/index.scss */
   .email {
     margin-right: 289px;
   }
 
-  /* line 538, ../sass/index.scss */
+  /* line 536, ../sass/index.scss */
   #message {
     width: 474.24;
     min-height: 5.15em;
   }
 }
 @media (min-width: 784px) {
-  /* line 545, ../sass/index.scss */
+  /* line 543, ../sass/index.scss */
   .thirdTile {
     border-color: #008cba;
   }
 
-  /* line 549, ../sass/index.scss */
+  /* line 547, ../sass/index.scss */
   .email {
     margin-right: 0px;
   }
 
-  /* line 556, ../sass/index.scss */
+  /* line 554, ../sass/index.scss */
   .firstList {
     border-color: #a8a8a8;
   }
 
-  /* line 560, ../sass/index.scss */
+  /* line 558, ../sass/index.scss */
   .one {
     min-height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  /* line 566, ../sass/index.scss */
+  /* line 564, ../sass/index.scss */
   .headh1, .headh2 {
     margin-left: calc(50% - 11.9em);
     max-width: 850px;
   }
 
-  /* line 572, ../sass/index.scss */
+  /* line 570, ../sass/index.scss */
   .headh2 {
     margin-left: calc(50% - 15.42em);
   }
 
-  /* line 579, ../sass/index.scss */
+  /* line 577, ../sass/index.scss */
   .threeh2list {
     text-align: left;
     border-top: 1px solid #008cba;
   }
 
-  /* line 584, ../sass/index.scss */
+  /* line 582, ../sass/index.scss */
   .listTitle {
     float: left;
     margin-left: 0px;
     margin-bottom: 100px;
   }
 
-  /* line 592, ../sass/index.scss */
+  /* line 590, ../sass/index.scss */
   .listContainer {
     min-width: 727.32px;
     min-height: 265px;
     padding: 0;
   }
 
-  /* line 598, ../sass/index.scss */
+  /* line 596, ../sass/index.scss */
   ul .displayToggle {
     display: list-item;
   }
 
-  /* line 611, ../sass/index.scss */
+  /* line 609, ../sass/index.scss */
   .tile {
     margin-right: 2.01em;
     display: inline-block;
   }
 
-  /* line 616, ../sass/index.scss */
+  /* line 614, ../sass/index.scss */
   .tileInvis {
     display: inline-block;
   }
 
-  /* line 620, ../sass/index.scss */
+  /* line 618, ../sass/index.scss */
   .floatTitle {
     margin-left: calc(50% - 23.74em);
   }
 
-  /* line 624, ../sass/index.scss */
+  /* line 622, ../sass/index.scss */
   .button1 {
     margin-left: calc(325px);
     margin-top: 34px;
   }
 
-  /* line 629, ../sass/index.scss */
+  /* line 627, ../sass/index.scss */
   .floatInfo {
     display: inline-block;
   }
 
-  /* line 633, ../sass/index.scss */
+  /* line 631, ../sass/index.scss */
   .info {
     display: none;
   }
 
-  /* line 637, ../sass/index.scss */
+  /* line 635, ../sass/index.scss */
   .tileContainer {
     max-width: 763px;
   }
 
-  /* line 641, ../sass/index.scss */
+  /* line 639, ../sass/index.scss */
   .listTileContainer {
     max-width: 250px;
   }

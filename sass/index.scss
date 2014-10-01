@@ -389,10 +389,10 @@ textarea:focus {
 
 .button1 {
 	float:left;
-	color:rgb(70,70,70);
+    border: 1px solid $mygreen;
+    color:$mygreen;
 	height:32.24px;
 	width:110px;
-	border: 1px solid rgb(168,168,168);
 	font-family:"OpenSans";
 	margin-left:calc(50% - 127px);
 	line-height:2em;
@@ -403,8 +403,6 @@ textarea:focus {
 }
 
 .button1:hover {
-    border: 1px solid $mygreen;
-    color:$mygreen;
     cursor:pointer;
 }
 
