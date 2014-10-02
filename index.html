@@ -5,7 +5,7 @@
 	<script src="js/vendor/jquery-2.1.1.min.js"></script>
 	<script src="js/foundation/foundation.js"></script>
 	<script src="js/foundation/foundation.offcanvas.js"></script>
-	<script type="text/javascript" src="//is.byu.edu/site/resources/lead_submit.js"></script>
+	<script type="text/javascript" src="//isdev.byu.edu/site/resources/lead_submit.js"></script>
 	<script type="text/javascript">
 		var debug = false;
 		attachForm("#contactForm",".clickhere", function( data, textStatus, jqXHR ){
@@ -13,7 +13,8 @@
 			//	This is an example of a simple thing you could use to create a new element after your form. Placing a "placeholder" element provides you a natural way to move/place the response data where you want it. For flexibility of design, the way you've done it here is actually better. Therefore this is commented out.
 			//$('<div id="form-response">' + data.message + '</div>').insertAfter($("#contactForm"));
 			$("#form-submit").html('<img src="img/green-check-mark.png" class="form-success" />Thank you for visiting our booth and entering the contest! We will contact the winners after the event.').addClass("form-success");
-		}, false, debug);	//	The last two parameters are optional and here are set to their default values. They govern an optional setting if you supply null for the handler function and rely on the default setting there, and the debug setting which needs to be true to include debug information in the console.
+			$("input[type='text'],input[type='tel'],input[type='email']").val("");
+		}, false, true, debug);	//	The last two parameters are optional and here are set to their default values. They govern an optional setting if you supply null for the handler function and rely on the default setting there, and the debug setting which needs to be true to include debug information in the console.
 	</script>
 	<script type="text/javascript">
 	(function($){	//	We've wrappered this javascript to keep it contained.
@@ -86,7 +87,7 @@
 						<form name="topRow" id="contactForm">
 							<div class="contactQuarter">
 								<h4>Name:</h4>
-								<input class="contactAreaQuarter" type="text" placeholder="Kyle Jones" name="name" id="name" required >
+								<input class="contactAreaQuarter" type="text" placeholder="Kyle Jones" name="identity" id="name" required >
 							</div>
 									 
 							<div class="contactQuarter">
